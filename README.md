@@ -1,19 +1,50 @@
-# Note-App
-Final Submmision from DIcoding Belajar Fundamental Front-End Web Development Class 
+# 📝 Note App – Aplikasi Catatan Web
 
-Judul: Note App – Aplikasi Catatan Web Sederhana
-Teknologi: JavaScript, Web Components, Webpack
+Aplikasi web sederhana untuk menulis, menyimpan, dan mengelola catatan. Dibuat menggunakan JavaScript modular, Web Components, dan Webpack. Cocok untuk latihan pengembangan frontend modern.
 
-Deskripsi Singkat:
-Note App ini merupakan aplikasi web sederhana yang memungkinkan pengguna menulis, menyimpan, dan melihat catatan. Aplikasi ini dibangun menggunakan prinsip modular JavaScript dengan pendekatan Web Components untuk membuat komponen UI yang reusable. Webpack digunakan sebagai bundler untuk mengelola aset dan mengoptimalkan proses build.
+## 🚀 Demo Live
+👉 https://note-app-rinaldi-mulya-pratamas-projects.vercel.app/
 
-⚙️ Fitur Utama
-📄 Tambah dan hapus catatan
+---
 
-🧱 Menggunakan Web Components (note-card, note-input, note-modal)
+## 🛠️ Tech Stack
 
-🗃️ Modularisasi kode di dalam folder components
+- ⚙️ **JavaScript (Modular)**
+- 📦 **Webpack** – Build & Bundle
+- 🌐 **HTML5 & CSS3**
+- 🧱 **Web Components** (Custom Elements)
 
-🔧 Build dengan Webpack (webpack.dev.js, webpack.prod.js)
+---
 
-🖥️ Menyediakan file HTML (home.html) untuk akses frontend
+## ✨ Fitur
+
+- Tambah dan hapus catatan
+- Antarmuka berbasis komponen:
+  - `note-input`
+  - `note-card`
+  - `note-modal`
+- Build otomatis dengan Webpack
+- Struktur file yang rapi dan terpisah
+
+---
+
+## 📁 Struktur Proyek
+
+```bash
+├── src/
+│   ├── script/
+│   │   ├── app.js
+│   │   ├── main.js
+│   │   └── components/
+│   │       ├── index.js
+│   │       ├── note-card.js
+│   │       ├── note-input.js
+│   │       └── note-modal.js
+│   └── index.html
+├── dist/
+│   ├── bundle.js
+│   └── index.html
+├── webpack.common.js
+├── webpack.dev.js
+├── webpack.prod.js
+└── package.json
