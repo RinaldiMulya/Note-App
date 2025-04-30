@@ -22,7 +22,7 @@ module.exports = {
   },
   plugins: [
     new HtmlWebpackPlugin({
-      template: "./src/home.html", // base HTML
+      template: "./src/index.html", // base HTML
       filename: "home.html",
     }),
   ],
